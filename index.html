@@ -8,8 +8,9 @@
         <link href="css/font-awesome.min.css" rel="stylesheet" type="text/css" media="all">
         <link href="css/themify-icons.css" rel="stylesheet" type="text/css" media="all" />
         <link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all" />
-        <link href="css/theme.css" rel="stylesheet" type="text/css" media="all" />
+        <link href="css/theme-red.css" rel="stylesheet" type="text/css" media="all" />
         <link href="css/custom.css" rel="stylesheet" type="text/css" media="all" />
+        <link rel="shortcut icon" href="img/favicon.ico">       
         <link href='http://fonts.googleapis.com/css?family=Lato:300,400%7CRaleway:100,400,300,500,600,700%7COpen+Sans:400,500,600' rel='stylesheet' type='text/css'>
     </head>
     <body>
@@ -30,14 +31,14 @@
 		            <div class="col-sm-12 col-md-5 col-md-pull-2 overflow-hidden-xs">
 		                <ul class="menu inline-block pull-right">
 		                    <li><a href="#home">Inicio</a></li>
-		                    <li><a href="#historia">Nuestra historia</a></li>
+		                    <li><a href="#terroir">Nuestra historia</a></li>
 		                </ul>
 		            </div>
 
 		            <div class="col-sm-12 col-md-5 pb-xs-24">
 		                <ul class="menu">
-		                    <li><a href="#">Nuestras Gamas</a></li>
-		                    <li><a href="#">Club del Vino</a></li>
+		                    <li><a href="#gamas">Nuestras Gamas</a></li>
+		                    <li><a href="#club">Club del Vino</a></li>
 		                       
 		                </ul>
 		            </div>
@@ -66,7 +67,7 @@
                         <div class="col-sm-6 col-sm-offset-3 text-center">
                             <h5 class="lead italic">
                                 <em>&ldquo;No se puede comprar la felicidad, pero se 
-                                    <br /> comprar vino y eso esta cerca...&rdquo;</em>
+                                    <br />puede comprar vino, y eso esta cerca...&rdquo;</em>
                             </h5>
                             <span>
                                Anonimo
@@ -78,7 +79,7 @@
                 <!--end of container-->
        
             </section>
-            <section class="image-square right">
+            <section class="image-square right" id="terroir">
                 <div class="col-md-6 image">
                     <div class="background-image-holder">
                         <img alt="image" class="background-image" src="img/5.jpeg" />
@@ -86,7 +87,7 @@
                 </div>
                 <div class="col-md-6 content">
                     <div class="text-center">
-                        <h5 class="uppercase fade-half mb-xs-24">&#8226; Est. 1968 &#8226;</h5>
+                        <h5 class="uppercase fade-half mb-xs-24">&#8226; Est. 1982 &#8226;</h5>
                         <h4>Nuestro Terroir</h4>
                         <p class="lead">
                             Desde 1982, el viñedo "La Forêt" extiende sus 190 hectáreas en la región de la Camargue, de antiguos y ricos suelos bañados por el sol y la humedad que proviene del río "Rhône" y el Mar Mediterráneo. Ingredientes que generan un clima templado para conseguir frutos de aromas únicos e inconfundibles que diferencian nuestra línea de vinos. </p>
@@ -117,7 +118,7 @@
                 </div>
                 <!--end of container-->
             </section>
-            <section class="pt0">
+            <section class="pt0" id="gamas">
                 <div class="container">
                     <div class="row">
                         <div class="col-sm-4 text-center overflow-hidden mb-xs-48">
@@ -128,7 +129,7 @@
                             <div class="text-lef">
                                 <h4>Chardonnay</h4>
                                 <h5>&ldquo; Vino amplio y equilibrado de color brillante. Seco, afrutado, ofrece agradables notas cítricas.&rdquo;</h5>
-                                <a class="btn btn-filled mb0" href="#">Visit Shop</a>
+                                <a class="btn btn-filled mb0" href="#">Saber mas</a>
                             </div>
                         </div>
                         <div class="col-sm-4 text-center overflow-hidden mb-xs-48">
@@ -138,8 +139,8 @@
                             <hr class="mb48">
                             <div class="text-lef">
                                 <h4>Tinto</h4>
-                                <h5>&ldquo;Vino con cuerpo y estructura de color rubí. Elegante persistencia en la boca que revela notas de madera y fondue&rdquo;</h5>
-                                <a class="btn btn-filled mb0" href="#">Visit Shop</a>
+                                <h5>&ldquo;Vino con cuerpo y estructura de color rubí que revela notas de madera y fondue.&rdquo;</h5>
+                                <a class="btn btn-filled mb0" href="#">Saber mas</a>
                             </div>
                         </div>
                         <div class="col-sm-4 text-center overflow-hidden mb-xs-48">
@@ -150,7 +151,16 @@
                             <div class="text-lef">
                                 <h4>Rosado</h4>
                                 <h5>&ldquo;Vino afrutado con delicado aroma a frambuesa. Aroma complejo y sabor muy expresivo&rdquo;</h5>
-                                <a class="btn btn-filled mb0" href="#">Visit Shop</a>
+                               <div class="modal-container">
+                                <a class="btn btn-modal" href="#">Saber más</a>
+                                <div class="foundry_modal">
+                                    <h2>Modal Title</h2>
+                                    <hr>
+                                    <p>
+                                        This is a paragraph y tal
+                                    </p>
+                                </div>
+                              </div>
                             </div>
                         </div>
                     </div>
@@ -169,10 +179,10 @@
                         </div>
                         <div class="col-sm-4 text-center overflow-hidden">
                             <div class="col-sm-8 col-sm-offset-2">
-                                <img alt="Pic" class="mb24" src="img/wine9.png" />
+                                <img alt="Pic" class="mb24" src="img/IGP.png" />
                                 <p class="lead">
-                                    Best Mid-Tier Value Wine
-                                    <br /> Barossa Shiraz, 2009
+                                    Indicación Geográfica Protegida
+                                    
                                 </p>
                             </div>
                         </div>
@@ -199,7 +209,7 @@
                 </div>
                 <!--end of container-->
             </section>
-            <section class="image-square left bg-secondary">
+            <section class="image-square left bg-secondary" id="club">
                 <div class="col-md-6 image">
                     <div class="background-image-holder">
                         <img alt="image" class="background-image" src="img/1.jpg" />
@@ -211,11 +221,7 @@
                        Una comunidad apasionada por toda la cultura que rodea el mundo del vino. Suscribiendote a nuestro club podrás gozar de las ultimas noticias y eventos relacionadas con prestige y el vino a nivel mundial, también tendrás la oportunidad de participar constantemente en concursos y de nuestro “wine experience”. 
                     </p>
                     <hr>
-                    <p class="lead">
-                        1240 Kilgour Road
-                        <br /> Rowland Flat
-                        <br /> South Australia 5352
-                    </p>
+                    
                     <ul>
                         <li>T: (+58) 123 4567</li>
                         <li>E: contacto@prestige.com</li>
